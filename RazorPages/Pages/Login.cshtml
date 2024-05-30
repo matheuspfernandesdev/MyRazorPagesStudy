@@ -1,8 +1,15 @@
-﻿@page
+﻿@page "~/entrar"
 @model RazorPages.Pages.LoginModel
 @{
     Layout = "Shared/_Layout2";
+    ViewData["Title2"] = "Entrar";
+    ViewBag.Titulo = "Entrar2";
 }
 <div class="text-center">
     <h1 class="display-4">Login</h1>
 </div>
+
+@section Scripts {
+    <script src="~/js/login.js" asp-append-version="true"></script>
+}
+ 

@@ -20,6 +20,25 @@ app.UseRouting();
 
 app.UseAuthorization();
 
+//app.UseEndpoints(endpoints =>
+//{
+//    endpoints.MapRazorPages();
+
+//    // Define a página inicial
+//    endpoints.MapGet("/", context =>
+//    {
+//        context.Response.Redirect("/Index");
+//        return Task.CompletedTask;
+//    });
+//});
+
+app.MapGet("/", async context => 
+{
+    context.Response.Redirect("/inicio");
+
+    await Task.CompletedTask;
+});
+
 app.MapRazorPages();
 
 app.Run();
