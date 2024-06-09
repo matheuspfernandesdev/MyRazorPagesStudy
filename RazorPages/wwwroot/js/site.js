@@ -3,4 +3,4 @@
 
 // Write your JavaScript code.
 
-alert('Bem vindo!');
+//alert('Bem vindo!');
