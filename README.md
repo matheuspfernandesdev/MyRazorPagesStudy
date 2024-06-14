@@ -3,4 +3,4 @@
 
 Entendendo como funciona o Razor Pages 
 
-Subindo repositorio para Azure Cloud: https://teste-web-app-binaryten.azurewebsites.net/
+Aprendendo a subir repositorio para Azure Cloud diretamente do GitHub: https://teste-web-app-binaryten.azurewebsites.net/
